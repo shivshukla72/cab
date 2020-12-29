@@ -1,0 +1,76 @@
+.headers
+{
+  background-color: black;
+  /* background-image: linear-gradient(to left,#66eb32
+  ,#54e90f); */
+}
+.texts
+{
+ color:white;
+ font-weight: bold;
+ 
+}
+.texts:hover
+{
+  color: yellowgreen;
+}
+.background
+{
+    background-image: url(bg.jpg);
+    /* height: 100vh; */
+}
+.heading1
+{
+    font-size: 38px;
+    font-weight: 600;
+    color: white;
+}
+.formdiv
+{
+  border-radius: 10px;
+  background-color: white;
+}
+.button1
+{
+  background-color: yellowgreen;
+  color: black;
+  border-radius: 5px;
+
+}
+.button2
+{
+  background-color: yellowgreen;
+  color: black;
+  font-weight: bold;
+  
+}
+.footers
+{
+  background-color: black;
+}
+.resultdiv
+{
+  background-color: rgba(red, green, blue, alpha);
+}
+
+@media screen and (max-width: 720px)
+{
+    
+        .background{
+            background-image: inherit;
+            margin-top: 0;
+        }
+        .heading1
+        {
+         display: none;
+                 
+        }
+       
+        .formdiv
+        {
+          background-color: rgb(237, 245, 244);
+          margin-top: -75px;
+        }
+
+    
+}
